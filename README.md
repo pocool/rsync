@@ -87,7 +87,7 @@ cd /test/rsync
 touch   rsync_client.sh  
 vi  rsync_client.sh  
 
-增加下列内容
+增加下列内容  
 /usr/bin/killall -9 rsync1   
 /usr/bin/killall -9 rsync2  
 /test/rsync/rsync1 -a --port=8002  10.0.72.221::task1 /test/host/task1 >> /test/rsync/task1.log  
