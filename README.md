@@ -15,7 +15,6 @@ yum  -y install rsync
 
 mkdir /test/rsync
 cd /test/rsync
-
 touch rsync.conf
 vi  rsync.conf
 
